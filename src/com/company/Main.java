@@ -17,11 +17,12 @@ public class Main {
         switch (op){
         case "+": System.out.println("result: "+addFunction(firstNumber,secondNumber));break;
         case "-": System.out.println("result: "+(firstNumber-secondNumber));break;
-        case "/": System.out.println("result: "+(firstNumber/secondNumber));break;
+        case "/": System.out.println("result: "+divideFunction(firstNumber,secondNumber));break;
         case "*": System.out.println("result: "+(firstNumber*secondNumber));break;
 
         }
         System.exit(0);
     }
 public static int addFunction(int x,int y){return x+y;}
+public static int divideFunction(int x, int y){return x*y}
 }
